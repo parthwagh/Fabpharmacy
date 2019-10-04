@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar class="ion-toolbar">
+      <ion-row>
+          <ion-col size="2">
+              <ion-icon name="arrow-round-back" class="ion-icon" (click)="navTabs()"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+              <div style="text-align: center;">Upload Prescription</div>
+          </ion-col>
+        </ion-row>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding class="bg-class">
+    <ion-row class="ion-row">
+        <ion-col>
+            <div style="text-align: center;" class="div">Upload Prescription for chat support</div>
+        </ion-col>
+    </ion-row>
+    <ion-row class="ion-row-1">
+        <ion-col>
+            <ion-button class="ion-button-1" shape="round" expand="full" size="default" (click)="openActionSheet()">
+                <ion-icon slot="end" name="arrow-dropright" size="small"></ion-icon>
+                Upload Prescription &nbsp; &nbsp;
+            </ion-button>
+        </ion-col>
+    </ion-row>
+</ion-content>

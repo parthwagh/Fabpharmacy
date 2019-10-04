@@ -1,0 +1,24 @@
+.bg-class{
+    --background: linear-gradient(180deg, rgba(235,37,86,1) 0%, rgba(167,25,88,1) 50.5%, rgba(145,22,88,1) 100%) !important;
+  }
+.social{
+  color: #ffffff;
+  padding-top: 200px;
+}
+.ion-button{
+  size: small;
+  color: #ffffff;
+  text-transform: none !important;
+}
+.ion-row-1{
+  padding-top: 20px;
+}
+.ion-button-1{
+  text-transform: none !important;
+  color: rgba(235,37,86,1);
+ --background: #ffffff;
+}
+.ion-button-2{
+  text-transform: none !important;
+  --background: rgba(235,37,86,1);
+}

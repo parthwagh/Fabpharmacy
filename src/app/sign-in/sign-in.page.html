@@ -1,0 +1,54 @@
+<ion-header>
+    <ion-toolbar class="ion-toolbar">
+      <ion-row>
+        <ion-col size="2">
+            <ion-icon name="arrow-round-back" class="ion-icon" routerLink="/home" routerDirection="forward" ></ion-icon>
+        </ion-col>
+        <ion-col size="8">
+            <div style="text-align: center;">Sign-In</div>
+        </ion-col>
+      </ion-row>
+      </ion-toolbar>
+</ion-header>
+<ion-content padding class="bg-class"> 
+<ion-row>
+     <ion-col>
+         <div class="social" style="width: 100%; text-align: center;">Social Login</div>
+         <div style="text-align: center; color: aliceblue;">____________________</div>
+    </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col size="1"></ion-col>
+    <ion-col size="5">
+        <ion-button class="ion-button" fill="clear">
+        <ion-icon slot="start" name="logo-facebook"></ion-icon>
+         Facebook
+        </ion-button>
+    </ion-col>
+    <ion-col size="4">
+        <ion-button class="ion-button" fill="clear">
+         <ion-icon slot="start" name="logo-google"></ion-icon>
+         Google &nbsp;  
+        </ion-button>
+    </ion-col>
+    <ion-col size="2"></ion-col>
+</ion-row>
+<ion-input placeholder="Phone/Email" class="ion-input">
+    <ion-icon name="person" slot="start" class="ion-icon"></ion-icon>
+</ion-input>
+<ion-input placeholder="Password" class="ion-input-1">
+  <ion-icon name="unlock" slot="start" class="ion-icon"></ion-icon>
+</ion-input>
+<ion-row>
+  <ion-col>
+    <div style="text-align: center;" class="text">Forgot Password?</div>
+  </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col>
+        <ion-button class="ion-button-2" shape="round" expand="full" size="default" (click)="navTabs()">
+            Sign In
+        </ion-button>
+    </ion-col>
+</ion-row>
+</ion-content>

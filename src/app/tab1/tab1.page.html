@@ -1,0 +1,154 @@
+<ion-header>
+</ion-header>
+
+<ion-content class="ion-content">
+    <ion-card class="ion-card">
+      <ion-row class="ion-row">
+      <ion-col size="10"> 
+      <ion-label class="div"><b>FIND</b> YOUR<br> PRODUCT NOW</ion-label>
+    </ion-col> 
+    <ion-col routerLink="/cart" routerDirection="forward" size="2">
+        <ion-badge *ngIf="cart.length > 0">{{ cart.length }}</ion-badge>
+        <ion-icon class="ion-icon-1" name="cart"></ion-icon>
+    </ion-col>
+    </ion-row>
+      <ion-row class="ion-row-1">
+          <ion-searchbar showCancelButton="focus" cancelButtonText="Custom Cancel" autocorrect="on"></ion-searchbar>
+      </ion-row>
+      <ion-row>
+          <ion-segment scrollable>
+              <ion-segment-button checked class="ion-seg">
+                <ion-label >Medicines</ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Surgicals </ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Women</ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Men</ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Orthopaedics</ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Measurements</ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Homeopathy</ion-label>
+              </ion-segment-button>
+              <ion-segment-button class="ion-seg">
+                <ion-label>Baby & Child</ion-label>
+              </ion-segment-button>
+            </ion-segment>
+      </ion-row>
+    </ion-card>
+
+    <ion-card class="ion-card-1">
+      <ion-row class="ion-row-2">
+        <ion-col size="3">
+          <img class="img" src="../assets/pills.png">
+        </ion-col>
+        <ion-col size="7" class="ion-col">
+          <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+          <div class="ion-label">Rs.500</div>
+          <div class="ion-label-2">View Substitues</div>
+        </ion-col>
+        <ion-col size="2" class="ion-col-1">
+            <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+
+    <ion-card class="ion-card-1">
+        <ion-row class="ion-row-2">
+          <ion-col size="3">
+            <img class="img" src="../assets/pills.png">
+          </ion-col>
+          <ion-col size="7" class="ion-col">
+            <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+            <div class="ion-label">Rs.500</div>
+          </ion-col>
+          <ion-col size="2" class="ion-col-1">
+            <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+
+      <ion-card class="ion-card-1">
+          <ion-row class="ion-row-2">
+            <ion-col size="3">
+              <img class="img" src="../assets/pills.png">
+            </ion-col>
+            <ion-col size="7" class="ion-col">
+              <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+              <div class="ion-label">Rs.500</div>
+            </ion-col>
+            <ion-col size="2" class="ion-col-1">
+                <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+
+        <ion-card class="ion-card-1">
+            <ion-row class="ion-row-2">
+              <ion-col size="3">
+                <img class="img" src="../assets/pills.png">
+              </ion-col>
+              <ion-col size="7" class="ion-col">
+                <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+                <div class="ion-label">Rs.500</div>
+              </ion-col>
+              <ion-col size="2" class="ion-col-1">
+                  <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+
+          <ion-card class="ion-card-1">
+              <ion-row class="ion-row-2">
+                <ion-col size="3">
+                  <img class="img" src="../assets/pills.png">
+                </ion-col>
+                <ion-col size="7" class="ion-col">
+                  <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+                  <div class="ion-label">Rs.500</div>
+                </ion-col>
+                <ion-col size="2" class="ion-col-1">
+                    <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+
+            <ion-card class="ion-card-1">
+                <ion-row class="ion-row-2">
+                  <ion-col size="3">
+                    <img class="img" src="../assets/pills.png">
+                  </ion-col>
+                  <ion-col size="7" class="ion-col">
+                    <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+                    <div class="ion-label">Rs.500</div>
+                  </ion-col>
+                  <ion-col size="2" class="ion-col-1">
+                      <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <ion-card class="ion-card-1">
+                  <ion-row class="ion-row-2">
+                    <ion-col size="3">
+                      <img class="img" src="../assets/pills.png">
+                    </ion-col>
+                    <ion-col size="7" class="ion-col">
+                      <ion-label class="ion-label-1">Dabigatran etexilate mesylate</ion-label><br>
+                      <div class="ion-label">Rs.500</div>
+                    </ion-col>
+                    <ion-col size="2" class="ion-col-1">
+                        <ion-icon class="ion-icon" name="cart" (click)="addToCart(product)"></ion-icon>
+                    </ion-col>
+                  </ion-row>
+                </ion-card>
+</ion-content>
+
